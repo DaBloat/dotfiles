@@ -1,9 +1,0 @@
-#!/bin/bash
-
-set +e
-
-export WAYLAND_DISPLAY=wayland-1
-
-swaybg -i ~/.config/mango/wallpapers/nighttime.jpg &
-
-/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
